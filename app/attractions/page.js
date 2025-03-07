@@ -24,7 +24,7 @@ export default async function page() {
   const data = await getData();
   return (
     <div>
-      <Typography variant="h5">Attractions</Typography>
+      <Typography variant="h5">Attractions test update</Typography>
       <Grid container spacing={1}>
         {data.map((attraction) => (
           <Grid item key={attraction.id} xs={12} md={4}>
